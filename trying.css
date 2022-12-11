@@ -1,0 +1,63 @@
+.mainbody{
+  width:100%;
+  height: 1800px;
+  background-color: rgb(21, 138, 240);
+
+}
+.firstpart{
+  width:50%;
+  height:100px;
+  background-color: aquamarine;
+}
+.secondpart{
+
+  width:50%;
+  height:100px;
+  background-color: red;
+}
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+  border-radius: 20PX;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #333; 
+  color:white;}
+  
+  .p{
+    font-size: 40px;
+    text-align: center;
+  }
+@media screen and (max-width:400px) {
+  .mainbody{width:100%;
+
+  }
+ .hello{width: 20%;
+ } 
+ .img{width: 20%;
+  padding-left: 30px;
+ }
+ .p{
+  font-size: 18px;
+ }
+}
+  
